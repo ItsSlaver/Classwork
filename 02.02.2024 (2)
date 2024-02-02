@@ -1,0 +1,30 @@
+a = 8
+b = 12
+print("2 пункт")
+a < 15 and b > 8
+print("a < 15 and b > 8")
+print(a < 15 and b > 8)
+a ** 2 < 2 and b ** 3 == 5
+print("a ** 2 < 2 and b ** 3 == 5")
+print(a ** 2 < 2 and b ** 3 == 5)
+a > 2 and b < 100
+print("a > 2 and b < 100")
+print(a > 2 and b < 100)
+a >= 25 and b >= 39
+print("a >= 25 and b >= 39")
+print(a >= 25 and b >= 39)
+#--------------------------
+print("3 пункт")
+a < 2 or b > 8 ** 2
+print("a < 2 or b > 8 ** 2")
+print(a < 2 or b > 8 ** 2)
+a <= 8 or b <= 12
+print("a <= 8 or b <= 12")
+print(a <= 8 or b <= 12)
+#_________________________
+print("4 пункт")
+str1 = "a"
+str2 = "b"
+str1 > str2 and str2 > str1
+print("str1 > str2 and str2 > str1")
+print(str1 > str2 and str2 > str1)
