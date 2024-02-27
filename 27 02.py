@@ -1,0 +1,61 @@
+#2
+A = int(input("Введите значение A ")) #1-ое значение
+B = int(input("Введите значение B ")) #2-ое значение
+C = int(input("Введите значение C ")) #3-е значение
+D = A * (B / 3.14) + (C * 3 + 5)
+print("A * (B / 3.14) + (C * 3 + 5) = ", D) #Ответ
+
+#1.1 
+my_dict = {}
+my_dict["surname"] = "Zayneev"
+print ("Фамилия - ", my_dict["surname"])
+my_dict1 = {}
+my_dict1["country"] = "Japan"
+print ("Страна - ", my_dict1["country"])
+my_dict2 = {}
+my_dict2["tour"] = "Tokyo"
+print ("Тур бы куплен в - ", my_dict2["tour"])
+my_dict = {}
+my_dict["year"] = "2015"
+print ("В каком году был куплен тур - ", my_dict["year"])
+my_dict = {}
+my_dict["year_of_tour"] = "2016"
+print ("В каком году была сама поездка - ", my_dict["year_of_tour"])
+my_dict = {}
+my_dict["Money"] = "2500$"
+print ("Стоимость поездки - ", my_dict["Money"])
+
+#1.2
+my_dict = {}
+my_dict["surname"] = input("Фамилия - ")
+my_dict1 = {}
+my_dict1["country"] = input("Страна - ")
+my_dict2 = {}
+my_dict2["tour"] = input("Город - ")
+my_dict = {}
+my_dict["year"] = input("Год оформления - ")
+my_dict = {}
+my_dict["year_of_tour"] = input("Год поездки - ")
+my_dict = {}
+my_dict["Money"] = input("Стоимость - ")
+
+#3
+R = int(input("Значение R ")); Y = int(input("Значение Y ")); E = R * (Y * Y) + (Y / 5); print("R * (Y * Y) + (Y / 5) = ", E) #Вводим значения и вычисляем
+
+#4
+A = float(input("Введите положительное вещественное число A: ")) 
+A1 = int(A) # Целая часть числа
+A2 = A - A1 # Дробная часть числа
+A3 = A ** 0.5 # Арифметический квадратный корень числа
+A4 = A % 5 # Остаток от деления на 5
+
+print("Целая часть числа A: ", A1)
+print("Дробная часть числа A: ", A2)
+print("Арифметический квадратный корень числа A: ", A3)
+print("Остаток от деления числа A на 5: ", A4)
+
+#5
+m = int(input("Введите количество минут, прошедших с полуночи (0 часов): "))
+h = m // 60
+r_m = m % 60
+print("Время: ", h, "часов ", r_m, "минут")
